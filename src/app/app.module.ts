@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { AddPatientComponent } from './add-patient/add-patient.component';
 import { RouterModule, Routes } from '@angular/router';
 import { ViewAllComponent } from './view-all/view-all.component';
+import { NavbarComponent } from './navbar/navbar.component';
 const myroute:Routes=[
   {
     path:'',
@@ -20,7 +21,8 @@ const myroute:Routes=[
   declarations: [
     AppComponent,
     AddPatientComponent,
-    ViewAllComponent
+    ViewAllComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
