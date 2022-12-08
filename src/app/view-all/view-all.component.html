@@ -15,12 +15,12 @@
                           </tr>
                         </thead>
                         <tbody>
-                          <tr>
+                          <tr *ngFor="let i of data">
                             
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                            <td>{{i.patient_id}}</td>
+                            <td>{{i.patient_name}}</td>
+                            <td>{{i.contact_no}}</td>
+                            <td>{{i.doc_name}}</td>
                            
                           </tr>
                           
